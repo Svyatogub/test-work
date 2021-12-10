@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    h3 {
+        margin-left: 30px;
+    }
+    h4 {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .Input {
+        margin-top: -12px;
+        margin-left: 28px;
+        input{
+            background: url(../img/Vector.png) no-repeat scroll 7px 7px;
+            padding-left:30px;
+            outline: none;
+            height: 25px;
+            width: 500px;
+            border: solid 1.5px #D3D3D3;
+            border-radius: 5px;
+            box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+        }
+    }
+}
+.Block {
+    margin: -20px 30px;
+    hr {
+        opacity: 0.5;
+    }
+    .Info {
+        div {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        span {
+            background-color: yellow;
+        }
+    }
+    .Cards {
+        display: flex;
+        border: solid 1px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        width: 30%;
+        color: black;
+        .Text {
+            text-decoration: none;
+            color: black;
+            padding: 0px 10px 0px 10px;
+        }
+        img {
+            border-radius: 5px;
+            width: 100%;
+            height: 50%;
+        }
+        h4{
+            font-size: large;
+        }
+        .More {
+            img{
+                width: 10px;
+                margin-right: 315px;
+                margin-top: 29px;
+            }
+        }
+    }
+}
